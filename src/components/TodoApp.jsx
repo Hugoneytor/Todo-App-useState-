@@ -27,6 +27,7 @@ const TodoApp = () => {
 
   return (
     <div className="todoContainer">
+      <h1 className="mainTitle">To do App</h1>
       <form className="todoCreateForm" onSubmit={onHandleSubmit}>
         <input className="todoInput" type="text" value={title
         } onChange={onHandleChange} maxLength={20}/>
